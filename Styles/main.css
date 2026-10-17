@@ -1,0 +1,58 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    max-width: 900px;
+    color: #333;
+}
+
+/* Header Layout & Profile Picture */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.profile-img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+/* Section Margins & Headings */
+section {
+    margin-top: 30px;
+}
+
+h1, h2, h3 {
+    color: #222;
+}
+
+ul {
+    list-style-type: square;
+}
+
+/* Cards for Work Experience & Projects (No Blue Line) */
+.project-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+/* Links Styling */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+}

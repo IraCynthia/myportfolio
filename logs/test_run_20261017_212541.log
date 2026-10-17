@@ -1,0 +1,8 @@
+2026-10-17 21:25:59 | INFO  | RUN START | portfolio: https://iracynthia.github.io/ | browser: Chrome 155.0.8059.84
+2026-10-17 21:26:00 | INFO  | TC-01 | Open Home Page | expected: Page loaded successfully | actual: Page loaded successfully | PASS | 1.5 s
+2026-10-17 21:26:11 | ERROR | TC-02 | Click 'About' Link | expected: About section accessible | actual: element not found / error | FAIL | 10.3 s | error: Message:  | screenshot: logs/TC-02_fail.png
+2026-10-17 21:26:21 | ERROR | TC-03 | Click 'Resume' Link | expected: Resume section/URL reached | actual: element not found / error | FAIL | 10.4 s | error: Message:  | screenshot: logs/TC-03_fail.png
+2026-10-17 21:26:32 | ERROR | TC-04 | Click 'Projects' Link | expected: Projects section displayed | actual: element not found / error | FAIL | 10.4 s | error: Message:  | screenshot: logs/TC-04_fail.png
+2026-10-17 21:26:34 | INFO  | TC-05 | Click External Link | expected: External link opened | actual: External link opened | PASS | 2.8 s
+2026-10-17 21:26:38 | ERROR | TC-06 | Click Missing Section (Negative Test) | expected: Element should be found | actual: element not found / error | FAIL | 3.2 s | error: Message:  | screenshot: logs/TC-06_fail.png
+2026-10-17 21:26:41 | INFO  | RUN END | total: 6 | passed: 2 | failed: 4 | duration: 41.7 s
